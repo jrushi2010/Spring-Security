@@ -8,6 +8,6 @@ public class WelcomeController {
 
 	@GetMapping("/welcome")
 	public String sayWelcome() {
-		return "Welcome to spring Application without security";
+		return "Welcome to spring Application with security";
 	}
 }
